@@ -1048,6 +1048,9 @@ void MyMainWindow::mousePressEvent(QMouseEvent * e)
 
 
 void MyMainWindow::mouseMoveEvent(QMouseEvent *event){
+    
+
+    
     previousPosition = currentPosition;
     currentPosition = event->pos();
 
